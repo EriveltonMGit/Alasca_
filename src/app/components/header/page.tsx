@@ -64,14 +64,14 @@ function Header() {
         <a href="#sobre" className="hover:text-gray-500 transition">
           Sobre
         </a>
-        <a href="#cardone" className="hover:text-gray-500 transition">
+        <a href="#novidades" className="hover:text-gray-500 transition">
           Novidades
         </a>
-        <a href="#cardtwo" className="hover:text-gray-500 transition">
+        <a href="#professora" className="hover:text-gray-500 transition">
           Professora
         </a>
-        <a href="#footer" className="hover:text-gray-500 transition">
-          Contato
+        <a href="#registro" className="hover:text-gray-500 transition">
+         Registro
         </a>
       </nav>
 
