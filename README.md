@@ -22,7 +22,7 @@ Landing page desenvolvida como parte de um desafio técnico com foco em promover
 1. **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/EriveltonMGit/alasca.git
+    git clone https://github.com/EriveltonMGit/Alasca_.git
     cd alasca
     ```
 
