@@ -1,0 +1,72 @@
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 70%;
+  padding: 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
+  color: #111;
+  z-index: 500;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-280px);
+}
+
+.side-menu.open {
+  transform: translateX(0);
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-top: 3rem;
+}
+
+.menu-items a {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #222;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.menu-items a:hover {
+  color: #0e7490;
+}
+
+.icon {
+  margin-right: 0.75rem;
+  font-size: 1.3rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 40;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop.open {
+  opacity: 0.5;
+  pointer-events: auto;
+}
