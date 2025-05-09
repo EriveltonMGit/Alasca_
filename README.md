@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧊 Alasca – Landing Page para Evento Jurídico
 
-## Getting Started
+Landing page desenvolvida como parte de um desafio técnico com foco em promover um evento online sobre estratégias de recursos no Direito Cível. O objetivo foi criar uma experiência visual atrativa, responsiva e clara, com informações bem organizadas e foco em conversão.
 
-First, run the development server:
+🔗 **Deploy:** [https://alasca-sa.netlify.app](https://alasca-sa.netlify.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias e Ferramentas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 15**
+- **React 19**
+- **Tailwind CSS 4**
+- **TypeScript 5**
+- **Framer Motion** (animações)
+- **AOS (Animate on Scroll)** (efeitos de entrada)
+- **React Icons** (ícones SVG)
+- **CLSx / Tailwind Merge** (combinação e manipulação de classes CSS)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Como Baixar e Instalar
 
-## Learn More
+1. **Clone o repositório:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/EriveltonMGit/alasca.git
+    cd alasca
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Instale as dependências:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 
-## Deploy on Vercel
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Execute o projeto em modo de desenvolvimento:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    npm run dev
+    ```
+
+    Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+4. **Para build de produção:**
+
+    ```bash
+    npm run build
+    npm start
+    ```
+
+
+## ✅ Checklist de Funcionalidades
+
+- [x] Layout responsivo
+- [x] Formulário com campos validados
+- [x] Imagens adaptadas para mobile e desktop
+- [x] Animações de entrada com AOS e Framer Motion
+- [x] Publicação via Netlify
+
