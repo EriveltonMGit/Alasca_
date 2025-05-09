@@ -9,10 +9,11 @@ import { AiOutlineCalendar } from "react-icons/ai";
 function Hero() {
   return (
     <>
+    
       <section
         className="container_hero  flex w-full overflow-hidden pt-6 md:pt-10 bg-[#26160f] sm:h-[100vh] lg:h-[100vh] xl:h-[100vh] min-h-screen"
         id="início"
-    
+      
       >
         {/* Imagem visível somente no desktop */}
         <img
@@ -26,7 +27,7 @@ function Hero() {
         <img
           src="/img/img_device.png"
           alt="imagem da advogada"
-          className="img_device  block lg:hidden w-[100%] mx-auto h-[45vh]"
+          className="img_device  block lg:hidden w-[100%] mx-auto h-[50vh]"
         />
         <main
           className="container_info_ w-full md:w-[90%] lg:w-[60%] xl:w-[45%]
@@ -43,7 +44,7 @@ function Hero() {
               alt=""
               className="w-[50%] md:w-[30%] lg:w-[7vw] "
             />
-            <h1 className="text-[22px] md:text-[28px] lg:text-[32px] text-white font-[Proelium] leading-tight mt-2">
+            <h1 className="text-[22px] md:text-[28px] lg:text-[32px] text-white font-[Proelium] leading-tight mt-2  ">
               A maioria dos advogados para na sentença.
               <span className="block md:inline text-[var(--wp--preset--color--vivid-title)]">
                 Os que vencem sabem que o jogo começa no recurso.
@@ -110,7 +111,7 @@ function Hero() {
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path
       fill="#26160f"
-      fillOpacity="1" // Altere de fill-opacity para fillOpacity
+      fillOpacity="1" 
       d="M0,128L120,138.7C240,149,480,171,720,170.7C960,171,1200,149,1320,138.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
     ></path>
   </svg>

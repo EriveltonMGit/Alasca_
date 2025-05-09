@@ -6,8 +6,10 @@ import LesseonCard from "./pages/lessonCard/page";
 import About from "./pages/about/page";
 import Hero from "./pages/home/page"; 
 import LessonCardTwo from "./pages/lessonCardTwo/page";
-import Footer from "./pages/footer/pages";
 import WhatsappFloatingButton from "./components/WhatsappFloatingButton/page";
+import Registro from "./pages/registro/pages";
+import Footer from "./pages/Footer/page";
+
 
 export default function Home() {
   // Adicione 'return' aqui!
@@ -24,9 +26,11 @@ export default function Home() {
       {/* LessonCardTwo */}
       <LessonCardTwo></LessonCardTwo>
       {/* Footer */}
-       <Footer></Footer>
+       <Registro></Registro>
        {/* :WhatsappFloatingButton */}
-       <WhatsappFloatingButton phoneNumber={"+55 61991599450"}></WhatsappFloatingButton>
+       <WhatsappFloatingButton phoneNumber={"61991599450"}></WhatsappFloatingButton>
+       {/* Footer */}
+       <Footer></Footer>
     </>
   );
 }

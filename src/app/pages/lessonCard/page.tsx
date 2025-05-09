@@ -1,5 +1,6 @@
 "use client";
 
+import { VelocityScroll } from "@/app/components/Scroll-based-velocity/scroll-based-velocity";
 import React from "react";
 
 function LessonCard() {
@@ -45,29 +46,66 @@ function LessonCard() {
   ];
 
   return (
-    <section className="w-screen min-h-screen bg-[#26160f] py-10 px-4 flex flex-col items-center justify-center gap-6 mt-15 " id="cardone"
-    >
-      <h1 className="text-2xl font-bold text-white text-center">O que você vai aprender:</h1>
-      <main className="flex flex-wrap justify-center gap-6 w-full">
-        {cards.map((card) => (
-          <div
-            key={card.id}
-            className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] bg-white rounded-lg shadow-md p-6 flex flex-col gap-4 min-h-[80vh] flex-grow"
-          >
-            <span className="text-sm text-[#896254] font-semibold">{card.date}</span>
-            <h2 className="text-xl md:text-2xl font-bold text-[#26160f]">
-              {card.title}
-            </h2>
-            <p className="text-sm text-gray-800">{card.description}</p>
-            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-              {card.items.map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </main>
-    </section>
+    <>
+       <VelocityScroll
+  className="text_scroll"
+  text="Depois da sentença · Recurso cível estratégico · Prática jurídica avançada · Advocacia de resultado · Inteligência recursal · Técnicas de apelação · Processo civil na prática · Sentença não é o fim · Domine os tribunais · Decisões reformadas"
+/>
+
+      {/* AQUI FICA O SVG DO TOP BOTTOM */}
+      <div className="svg_top mb-[-3vh]" 
+     >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#26160f"
+            fillOpacity="1"
+            d="M0,128L120,138.7C240,149,480,171,720,170.7C960,171,1200,149,1320,138.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <section
+        className="w-screen min-h-screen bg-[#26160f] py-10 px-4 flex flex-col items-center justify-center gap-6  "
+        id="novidades"
+        
+    
+      >
+        <h1 className="text-2xl font-bold text-white text-center">
+          O que você vai aprender:
+        </h1>
+        <main className="flex flex-wrap justify-center gap-6 w-full">
+          {cards.map((card) => (
+            <div
+              key={card.id}
+              className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] bg-white rounded-lg shadow-md p-6 flex flex-col gap-4 min-h-[80vh] flex-grow"
+            >
+              <span className="text-sm text-[#896254] font-semibold">
+                {card.date}
+              </span>
+              <h2 className="text-xl md:text-2xl font-bold text-[#26160f]">
+                {card.title}
+              </h2>
+              <p className="text-sm text-gray-800">{card.description}</p>
+              <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+                {card.items.map((item, idx) => (
+                  <li key={idx}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </main>
+      </section>
+        {/* AQUI FICA O SVG DO TOP BOTTOM */}
+      <div className="svg_top rotate-180 mt-[-4vh]" 
+     >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#26160f"
+            fillOpacity="1"
+            d="M0,128L120,138.7C240,149,480,171,720,170.7C960,171,1200,149,1320,138.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </>
   );
 }
 
