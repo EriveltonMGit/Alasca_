@@ -6,8 +6,7 @@ function About() {
     <section
       className="relative w-screen min-h-[120vh] flex flex-col lg:block items-center justify-center mt-20 overflow-hidden px-4 py-8"
       id="sobre"
-  data-aos="fade-up"
-     data-aos-duration="2000"
+ 
     >
       {/* Imagem – fixa à esquerda apenas no desktop */}
      <div className="rounded-lg w-full lg:w-[30%] lg:h-[70%] lg:absolute lg:left-0 lg:ml-8 lg:mt-25 overflow-hidden mb-6 lg:mb-0 z-30 shadow-xl">

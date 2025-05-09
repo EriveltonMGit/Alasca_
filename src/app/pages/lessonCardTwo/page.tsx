@@ -6,8 +6,7 @@ import React from "react";
 function LessonCardTwo() {
   return (
     <section className="w-full bg-white px-6 py-16 mt-15 flex items-center justify-center" id="cardtwo"
-    data-aos="fade-up"
-     data-aos-duration="2000"
+    
     >
       <main className="flex flex-col lg:flex-row w-full max-w-screen-xl lg:h-[90vh] overflow-hidden">
         {/* Texto à esquerda */}

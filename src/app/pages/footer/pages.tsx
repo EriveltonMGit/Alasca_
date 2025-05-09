@@ -7,8 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="w-full bg-[#26160f] text-white py-10 px-4 flex flex-col items-center" id="footer"
-data-aos="fade-up"
-     data-aos-duration="2000"
+
     >
       <div className="max-w-4xl w-full text-center mb-6">
         <h2 className="text-2xl md:text-3xl font-semibold text-white">

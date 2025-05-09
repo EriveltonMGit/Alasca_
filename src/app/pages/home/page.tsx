@@ -19,7 +19,7 @@ function Hero() {
           src="/img/BGPC.webp"
           alt="imagem da advogada"
           className="hidden lg:block w-full z-30"
-         data-aos="zoom-out-up"   data-aos-delay="1000"
+  
         />
         <div className="container_blur "></div>
         {/* Imagem visível somente em dispositivos móveis */}
@@ -35,7 +35,7 @@ function Hero() {
        absolute top-auto bottom-0 lg:top-0 lg:bottom-auto z-90
        
        "
-       data-aos="zoom-out-up"   data-aos-delay="1000"
+      
         >
           <div className="w-full h-auto p-2">
             <img
