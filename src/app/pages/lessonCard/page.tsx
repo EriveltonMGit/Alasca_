@@ -46,8 +46,7 @@ function LessonCard() {
 
   return (
     <section className="w-screen min-h-screen bg-[#26160f] py-10 px-4 flex flex-col items-center justify-center gap-6 mt-15 " id="cardone"
-     data-aos="fade-up"
-     data-aos-duration="2000">
+    >
       <h1 className="text-2xl font-bold text-white text-center">O que você vai aprender:</h1>
       <main className="flex flex-wrap justify-center gap-6 w-full">
         {cards.map((card) => (

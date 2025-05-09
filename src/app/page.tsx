@@ -7,6 +7,7 @@ import About from "./pages/about/page";
 import Hero from "./pages/home/page"; 
 import LessonCardTwo from "./pages/lessonCardTwo/page";
 import Footer from "./pages/footer/pages";
+import WhatsappFloatingButton from "./components/WhatsappFloatingButton/page";
 
 export default function Home() {
   // Adicione 'return' aqui!
@@ -24,6 +25,8 @@ export default function Home() {
       <LessonCardTwo></LessonCardTwo>
       {/* Footer */}
        <Footer></Footer>
+       {/* :WhatsappFloatingButton */}
+       <WhatsappFloatingButton phoneNumber={"61991599450"}></WhatsappFloatingButton>
     </>
   );
 }
