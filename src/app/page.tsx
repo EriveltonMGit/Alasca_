@@ -26,7 +26,7 @@ export default function Home() {
       {/* Footer */}
        <Footer></Footer>
        {/* :WhatsappFloatingButton */}
-       <WhatsappFloatingButton phoneNumber={"61991599450"}></WhatsappFloatingButton>
+       <WhatsappFloatingButton phoneNumber={"+55 61991599450"}></WhatsappFloatingButton>
     </>
   );
 }

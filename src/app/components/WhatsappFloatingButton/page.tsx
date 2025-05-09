@@ -7,6 +7,8 @@ import React from 'react';
 interface WhatsappFloatingButtonProps {
   phoneNumber: string;
   message?: string;
+  params?: Record<string, never>;
+  searchParams?: Record<string, never>;
 }
 
 export default function WhatsappFloatingButton({ phoneNumber, message }: WhatsappFloatingButtonProps) {
